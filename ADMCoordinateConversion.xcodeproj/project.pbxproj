@@ -14,6 +14,7 @@
 		A2EA146E2B001AD5004D0107 /* ADMCoordinateConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA146D2B001AD5004D0107 /* ADMCoordinateConversionTests.swift */; };
 		A2EA14782B001AD5004D0107 /* ADMCoordinateConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA14772B001AD5004D0107 /* ADMCoordinateConversionUITests.swift */; };
 		A2EA147A2B001AD5004D0107 /* ADMCoordinateConversionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA14792B001AD5004D0107 /* ADMCoordinateConversionUITestsLaunchTests.swift */; };
+		A2EA14872B002280004D0107 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA14862B002280004D0107 /* Vector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A2EA14732B001AD5004D0107 /* ADMCoordinateConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADMCoordinateConversionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EA14772B001AD5004D0107 /* ADMCoordinateConversionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMCoordinateConversionUITests.swift; sourceTree = "<group>"; };
 		A2EA14792B001AD5004D0107 /* ADMCoordinateConversionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMCoordinateConversionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2EA14862B002280004D0107 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A2EA145F2B001AD4004D0107 /* Assets.xcassets */,
 				A2EA14612B001AD4004D0107 /* Main.storyboard */,
 				A2EA14642B001AD4004D0107 /* ADMCoordinateConversion.entitlements */,
+				A2EA14862B002280004D0107 /* Vector.swift */,
 			);
 			path = ADMCoordinateConversion;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2EA145E2B001AD3004D0107 /* ViewController.swift in Sources */,
+				A2EA14872B002280004D0107 /* Vector.swift in Sources */,
 				A2EA145C2B001AD3004D0107 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
