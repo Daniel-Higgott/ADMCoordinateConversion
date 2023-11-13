@@ -9,13 +9,13 @@ import Foundation
 
 class Vector {
     
-    var x: Double = 0.0
-    var y: Double = 0.0
-    var z: Double = 0.0
+    private(set) var x: Double = 0.0
+    private(set) var y: Double = 0.0
+    private(set) var z: Double = 0.0
     
-    var azimuth: Double = 0.0
-    var elevation: Double = 0.0
-    var distance: Double = 0.0
+    private(set) var azimuth: Double = 0.0
+    private(set) var elevation: Double = 0.0
+    private(set) var distance: Double = 0.0
     
     init(x: Double, y: Double, z: Double) {
         self.x = x
