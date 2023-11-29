@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		A22A39262B027D99004C0ABE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A25D3C352B1748B80098F5DA /* License.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
 		A2EA14582B001AD3004D0107 /* ADMCoordinateConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADMCoordinateConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EA145B2B001AD3004D0107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2EA145D2B001AD3004D0107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +79,8 @@
 		A2EA144F2B001AD3004D0107 = {
 			isa = PBXGroup;
 			children = (
+				A22A39262B027D99004C0ABE /* README.md */,
+				A25D3C352B1748B80098F5DA /* License.md */,
 				A2EA145A2B001AD3004D0107 /* ADMCoordinateConversion */,
 				A2EA146C2B001AD5004D0107 /* ADMCoordinateConversionTests */,
 				A2EA14762B001AD5004D0107 /* ADMCoordinateConversionUITests */,
@@ -104,7 +107,6 @@
 				A2EA14612B001AD4004D0107 /* Main.storyboard */,
 				A2EA14642B001AD4004D0107 /* ADMCoordinateConversion.entitlements */,
 				A2EA14862B002280004D0107 /* Vector.swift */,
-				A22A39262B027D99004C0ABE /* README.md */,
 			);
 			path = ADMCoordinateConversion;
 			sourceTree = "<group>";

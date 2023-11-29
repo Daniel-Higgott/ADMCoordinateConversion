@@ -42,6 +42,7 @@ Here is the function for converting from cartesian coordinates to polar coordina
         return (azimuthDegrees, elevationDegrees, distance)
     }
 ```
+
 ## Summary
 
 This is designed to provide a simple example of coordinate system conversion. Additional work will be needed to guarantee complience with ADM. For example, minimum and maximum values are not limited, and so conversion could produce out of range values.

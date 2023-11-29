@@ -1,7 +1,5 @@
-//
-//  AppDelegate.swift
-//  ADMCoordinateConversion
-//
+#  License
+
 //Copyright (c) 2023 Daniel Higgott
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,27 +20,3 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 //
-
-import Cocoa
-
-@main
-class AppDelegate: NSObject, NSApplicationDelegate {
-
-    
-
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
-    }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-    func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
-        return true
-    }
-
-
-}
-
